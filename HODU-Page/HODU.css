@@ -98,7 +98,7 @@ a{
 
 main{
     width: 1920px;
-    height: 3637px;
+    height: 3536px;
 }
 
 .block2{
@@ -191,6 +191,7 @@ main{
     text-align: center;
     color: #FFFFFF;
     padding: 15px 29px 15px 29px;
+    border: 1px solid #D97652;
     background-color: #D97652;
     border-radius: 40px;
 }
@@ -223,14 +224,93 @@ main{
     color: #606367;
 }
 
+.subscribe-form {
+    width: 1280px;
+    height: 200px;
+    background-color: #263140;
+    border-radius: 30px;
+    position: absolute;
+    top: 3536px;
+    left: 320px;
+}
+
+.subscribe-form h2{
+    width: 448px;
+    height: 45px;
+    padding: 50px 186px 18px 58px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.subscribe-form p{
+    padding-right: 163px;
+    padding-bottom: 51px;
+    padding-left: 58px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #F2E9D8;
+}
+
+.subscribe-email {
+    width: 530px;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 60px;
+    position: absolute;
+    top: 70px;
+    left: 692px;
+}
+
+.subscribe-email img {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 28px;
+}
+
+.subscribe-email input {
+    padding: 20px 137px 20px 16px;
+    border: none;
+    outline: none;
+}
+
+.subscribe-email button {
+    padding: 15px 29px 15px 29px;
+    margin-top: 5px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    border: 1px solid #D97652;
+    border-radius: 40px;
+    background-color: #D97652;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer{
+    width: 1920px;
+    height: 500px;
+}
+
 .social-media{
     display: flex;
     align-items: center;
     gap: 20px;
-    width: 1920px;
-    height: 160px;
 }
 
 .logo2{
     padding: 45px 826px 45px 320px;
+}
+
+#map{
+    width: 500px;
+    height: 400px;
+
 }
