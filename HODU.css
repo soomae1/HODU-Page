@@ -1,7 +1,12 @@
-* {
+*{
     font-family: pretendard;
     margin: 0;
     padding:0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 .title{
@@ -19,9 +24,7 @@
 .nav-links{
     display: flex;
     list-style: none;
-    position: absolute;
-    top: 41px;
-    left: 1206px;
+    position: absolute; top: 41px; left: 1206px;
     gap: 30px
 }
 
@@ -34,21 +37,21 @@ a{
 
 }
 
-.click{
-    width: 140px;
-    height: 50px;
+button{
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
     text-align: center;
     color: #FFFFFF;
-    padding: 15px 33px 15px 31px;
     border: 1px;
     border-radius: 40px;
     background-color: #D97652;
-    position: absolute;
-    top: 26px;
-    left: 1460px;
+    cursor: pointer;
+}
+
+.click{
+    line-height: 20px;
+    padding: 15px 33px 15px 31px;
+    position: absolute; top: 26px; left: 1460px;
 }
 
 .block{
@@ -78,16 +81,8 @@ a{
 }
 
 .click2 {
-    width: 140px;
-    height: 50px;
-    font-weight: 700;
-    font-size: 16px;
     line-height: 19.09px;
-    color: #FFFFFF;
     padding: 16px 33px 15px 31px;
-    border: 1px;
-    border-radius: 40px;
-    background-color: #D97652;
 }
 
 .cat{
@@ -99,6 +94,7 @@ a{
 main{
     width: 1920px;
     height: 3977px;
+    flex: 1;
 }
 
 .block2{
@@ -186,19 +182,13 @@ main{
 
 .button{
     display: inline-block;
-    font-weight: 700;
-    font-size: 16px;
     line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
     padding: 15px 29px 15px 29px;
-    border: 1px;
-    background-color: #D97652;
-    border-radius: 40px;
 }
 
 .img-size img{
-    width: 250px;
+    width: 378px;
+    height: 378px;
 }
 
 .line{
@@ -230,19 +220,39 @@ main{
 }
 
 #map {
-    position: absolute;
-    left: 320px;
+    position: absolute; left: 320px;
     width: 1278px;
     height: 520px;
     border-radius: 12px;
 }
 
+
+.modal-button {
+    padding: 15px 29px 15px 29px;
+    margin-top: 5px;
+    margin-right: 6px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
 .modal-wrap{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content{
     width: 600px;
     height: 400px;
     background-image: url("src/images/Cat photo/무제-1 1.png");
     border-radius: 30px;
-    display: none;
 }
 
 .modal-content img{
@@ -259,7 +269,7 @@ main{
     text-align: Center;
 }
 
-.modal-content h4{
+.modal-content h4 {
     padding: 12px 127px 38px 108px;
     color: #000000;
     font-weight: 400;
@@ -268,29 +278,13 @@ main{
     text-align: Center;
 }
 
-.modal-content button{
-    padding: 15px 29px 15px 29px;
-    margin-bottom: 40px;
-    margin-left: 205px;
-    margin-right: 212px;
-    background-color: #D97652;
-    border-radius: 40px;
-    border: 1px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    text-align: Center;
-    color: #FFFFFF;
-}
-
 .subscribe-form {
     width: 1280px;
     height: 200px;
     background-color: #263140;
     border-radius: 30px;
-    position: absolute;
-    top: 3637px;
-    left: 320px;
+    position: absolute;  left: 320px;
+    margin-top: 600px;
 }
 
 .subscribe-form h2{
@@ -319,9 +313,7 @@ main{
     align-items: center;
     background-color: #FFFFFF;
     border-radius: 60px;
-    position: absolute;
-    top: 70px;
-    left: 692px;
+    position: absolute; top: 70px; left: 692px;
 }
 
 .subscribe-email img {
@@ -336,19 +328,12 @@ main{
     outline: none;
 }
 
-.modal-button {
+.close-button{
     padding: 15px 29px 15px 29px;
-    margin-top: 5px;
-    margin-right: 6px;
-    margin-bottom: 5px;
-    border: 1px;
-    border-radius: 40px;
-    background-color: #D97652;
-    font-weight: 700;
-    font-size: 16px;
+    margin-bottom: 40px;
+    margin-left: 205px;
+    margin-right: 212px;
     line-height: 20px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .cat-image{
@@ -357,12 +342,11 @@ main{
 
 .scroll-button{
     display: inline-block;
-    position: absolute;
-    top: 4010px;
-    left: 1846px;
+    position: absolute; left: 1846px;
+    margin-top: 950px;
 }
 
-.dark{
+.dark {
     position: absolute;
     top: 0;
     left: 0;
@@ -373,7 +357,7 @@ main{
     opacity: 1;
 }
 
-footer{
+footer {
     width: 1920px;
     height: 160px;
 }
