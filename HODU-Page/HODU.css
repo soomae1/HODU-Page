@@ -1,5 +1,5 @@
 * {
-    font-family: "pretendard";
+    font-family: pretendard;
     margin: 0;
     padding:0;
 }
@@ -35,9 +35,6 @@ a{
 }
 
 .click{
-    position: absolute;
-    top: 26px;
-    left: 1460px;
     width: 140px;
     height: 50px;
     font-weight: 700;
@@ -46,9 +43,12 @@ a{
     text-align: center;
     color: #FFFFFF;
     padding: 15px 33px 15px 31px;
-    border: 1px solid #D97652;
+    border: 1px;
     border-radius: 40px;
     background-color: #D97652;
+    position: absolute;
+    top: 26px;
+    left: 1460px;
 }
 
 .block{
@@ -85,7 +85,7 @@ a{
     line-height: 19.09px;
     color: #FFFFFF;
     padding: 16px 33px 15px 31px;
-    border: 1px solid #D97652;
+    border: 1px;
     border-radius: 40px;
     background-color: #D97652;
 }
@@ -98,7 +98,7 @@ a{
 
 main{
     width: 1920px;
-    height: 3536px;
+    height: 3977px;
 }
 
 .block2{
@@ -164,6 +164,7 @@ main{
 }
 
 .photo {
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 72px 72px;
@@ -191,9 +192,13 @@ main{
     text-align: center;
     color: #FFFFFF;
     padding: 15px 29px 15px 29px;
-    border: 1px solid #D97652;
+    border: 1px;
     background-color: #D97652;
     border-radius: 40px;
+}
+
+.img-size img{
+    width: 250px;
 }
 
 .line{
@@ -224,13 +229,67 @@ main{
     color: #606367;
 }
 
+#map {
+    position: absolute;
+    left: 320px;
+    width: 1278px;
+    height: 520px;
+    border-radius: 12px;
+}
+
+.modal-wrap{
+    width: 600px;
+    height: 400px;
+    background-image: url("src/images/Cat photo/무제-1 1.png");
+    border-radius: 30px;
+    display: none;
+}
+
+.modal-content img{
+    padding: 60px 245px 24px 245px;
+}
+
+.modal-content h3{
+    padding-right: 194px;
+    padding-left: 194px;
+    color: #D97652;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: Center;
+}
+
+.modal-content h4{
+    padding: 12px 127px 38px 108px;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: Center;
+}
+
+.modal-content button{
+    padding: 15px 29px 15px 29px;
+    margin-bottom: 40px;
+    margin-left: 205px;
+    margin-right: 212px;
+    background-color: #D97652;
+    border-radius: 40px;
+    border: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: Center;
+    color: #FFFFFF;
+}
+
 .subscribe-form {
     width: 1280px;
     height: 200px;
     background-color: #263140;
     border-radius: 30px;
     position: absolute;
-    top: 3536px;
+    top: 3637px;
     left: 320px;
 }
 
@@ -255,8 +314,6 @@ main{
 }
 
 .subscribe-email {
-    width: 530px;
-    height: 60px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -279,12 +336,12 @@ main{
     outline: none;
 }
 
-.subscribe-email button {
+.modal-button {
     padding: 15px 29px 15px 29px;
     margin-top: 5px;
     margin-right: 6px;
     margin-bottom: 5px;
-    border: 1px solid #D97652;
+    border: 1px;
     border-radius: 40px;
     background-color: #D97652;
     font-weight: 700;
@@ -294,9 +351,31 @@ main{
     color: #FFFFFF;
 }
 
+.cat-image{
+    margin-top: 683px;
+}
+
+.scroll-button{
+    display: inline-block;
+    position: absolute;
+    top: 4010px;
+    left: 1846px;
+}
+
+.dark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.scroll-button:hover .dark {
+    opacity: 1;
+}
+
 footer{
     width: 1920px;
-    height: 500px;
+    height: 160px;
 }
 
 .social-media{
@@ -305,12 +384,10 @@ footer{
     gap: 20px;
 }
 
-.logo2{
-    padding: 45px 826px 45px 320px;
+.social-media li{
+    list-style: none;
 }
 
-#map{
-    width: 500px;
-    height: 400px;
-
+.logo2{
+    padding: 45px 826px 45px 320px;
 }
