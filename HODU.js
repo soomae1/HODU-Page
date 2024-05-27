@@ -9,7 +9,7 @@
 
     async function fetchImages(page){
     try{
-    const response = await fetch(`https://picsum.photos/v2/list?page=${page}&limit=8`);
+    const response = await fetch(`https://picsum.photos/v2/list?page=${page}&limit=6`);
 
     if(!response.ok){
     throw new Error('네트워크 응답에 문제가 있습니다.');
