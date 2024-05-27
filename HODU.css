@@ -344,6 +344,7 @@ main{
     display: inline-block;
     position: absolute; left: 1846px;
     margin-top: 950px;
+    cursor: pointer;
 }
 
 .dark {
