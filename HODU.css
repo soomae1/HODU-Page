@@ -54,7 +54,7 @@ button{
     position: absolute; top: 26px; left: 1460px;
 }
 
-.block{
+.intro{
     width: 1280px;
     height: 798px;
     padding-right: 320px;
@@ -71,7 +71,7 @@ button{
     color: #000000;
 }
 
-.write2{
+.sentence{
     padding-top: 20px;
     padding-bottom: 40px;
     font-weight: 400;
@@ -80,7 +80,7 @@ button{
     color: #000000;
 }
 
-.click2 {
+.click-button{
     line-height: 19.09px;
     padding: 16px 33px 15px 31px;
 }
@@ -97,19 +97,19 @@ main{
     flex: 1;
 }
 
-.block2{
+.lead-in{
     display: flex;
     padding-top: 80px;
     padding-right: 320px;
     padding-left: 320px;
 }
 
-.cat2{
+.cat-photo{
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
 }
 
-.explain1{
+.explain{
     font-weight: 700;
     font-size: 36px;
     line-height: 45px;
@@ -121,7 +121,7 @@ main{
     padding-left: 110px;
 }
 
-.explain2{
+.account{
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -131,7 +131,7 @@ main{
     padding-left: 110px;
 }
 
-.block3{
+.paragraph{
     text-align: center;
     padding: 120px 322px 80px 320px;
 }
@@ -144,7 +144,7 @@ main{
     color: #D97652;
 }
 
-.explain3{
+.explain-writing{
     padding-top: 40px;
     padding-bottom: 88px;
     font-weight: 400;
@@ -154,7 +154,7 @@ main{
     color: #000000;
 }
 
-.explain3 span{
+.explain-writing span{
     color: #D97652;
     font-weight: 700;
 }
@@ -198,12 +198,12 @@ main{
     color: #C4C4C4;
 }
 
-.write3, .location{
+.head, .location{
     padding-right: 1205px;
     padding-left: 320px;
 }
 
-.write3{
+.head{
     padding-bottom: 20px;
     font-weight: 700;
     font-size: 36px;
@@ -373,6 +373,6 @@ footer {
     list-style: none;
 }
 
-.logo2{
+.big-logo{
     padding: 45px 826px 45px 320px;
 }
