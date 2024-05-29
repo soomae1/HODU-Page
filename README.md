@@ -32,6 +32,8 @@ https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS
 
   
 
+
+
 1. 시맨틱 태그 깔끔하게 사용
    
 ![image](https://github.com/soomae1/HODU-Page/assets/168793000/49249a33-a749-499a-93e6-9e5b4937f7e8)
@@ -68,12 +70,18 @@ https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS
 
 
 
+
+
+
 🐥 프로젝트 마무리 후 회고 (발표 전)
 - 일주일 동안 프로젝트를 하면서 페이지 구현하는데 엄청난 노력이 필요하다는 걸 크게 깨달았다.
 - 시맨틱 태그를 구성하는데 처음에는 힘들었지만 html에는 많이 익숙해졌고 어렵지 않게 느껴졌다.
 - CSS class 선택자 설정이 어려웠다.
 - JavaScript사용하면서 조금은 어떤 식으로 작동하는지 깨달았다. (비동기)
 - 마지막 버튼 부분을 올리는 동작하는 기능을 만들지 못해서 아쉽다.
+
+
+
 
 
 
