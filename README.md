@@ -1,9 +1,8 @@
 # HODU-Page
-&lt;오르미5기> 개인 프로젝트 HODU Page 구현
+<오르미5기> 개인 프로젝트 HODU Page 구현
 
-프로젝트 기간: 5/20 ~ 5/28
-
-😊 5/28(화) 프로젝트 발표
+😊 프로젝트 기간: 5/20 ~ 5/28
+😊 프로젝트 발표: 5/28(화) 프로젝트 발표
 
 ⭐ 구현대상
 
@@ -20,3 +19,5 @@ https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS
 - height? 높이값을 꼭 줄 필요없다!
 - 주소 html 태그 address로 변경! (다른 분 페이지보고 깨달음!)
 - input 사용시 위에 lable 꼭 같이 사용해주기! (다른 분 설명듣고 깨달음!)
+
+![image](https://github.com/soomae1/HODU-Page/assets/168793000/49249a33-a749-499a-93e6-9e5b4937f7e8)
