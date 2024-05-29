@@ -30,31 +30,40 @@ https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS
 - height? 높이값을 꼭 줄 필요없다!
 - div를 최대한 사용하지 않으려고 한게 너무 보기 좋다 깔끔하다!
 
+  
+
 1. 시맨틱 태그 깔끔하게 사용
    
 ![image](https://github.com/soomae1/HODU-Page/assets/168793000/49249a33-a749-499a-93e6-9e5b4937f7e8)
+
+
 
 2.Show more 버튼 클릭 시 추가적인 이미지 랜더링 
 
 ![image](https://github.com/soomae1/HODU-Page/assets/168793000/378025f0-705b-446c-8198-48f8b7917b20) 
 
-🔽
+                                             🔽
 
 ![image](https://github.com/soomae1/HODU-Page/assets/168793000/ba458986-1f86-4191-b52c-65bc2c130f26)
+
+
 
 3. 지도 구현 ( JavaScript 기능 사용 )
 
 ![msedge_kT73n8X3N4](https://github.com/soomae1/HODU-Page/assets/168793000/8c25b693-534a-45cc-9c50-50976804a48f)
 
 
-5. 모달창 구현 ( JavaScript 기능 사용 )
+
+4. 모달창 구현 ( JavaScript 기능 사용 )
    
 ![msedge_xslG99xROm](https://github.com/soomae1/HODU-Page/assets/168793000/21337e7d-d2d3-464d-8621-54b868a71db1)
 
 
-7. 버튼이 변하는 현상
+
+5. 버튼이 변하는 현상
    
 ![msedge_MZyVYTR3Sw](https://github.com/soomae1/HODU-Page/assets/168793000/f0ece436-2028-4e53-b51a-e64c3bc9d7a4)
+
 
 
 
@@ -65,6 +74,7 @@ https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS
 - CSS class 선택자 설정이 어려웠다.
 - JavaScript사용하면서 조금은 어떤 식으로 작동하는지 깨달았다. (비동기)
 - 마지막 버튼 부분을 올리는 동작하는 기능을 만들지 못해서 아쉽다.
+
 
 
 
