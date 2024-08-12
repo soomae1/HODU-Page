@@ -9,6 +9,10 @@
 
 https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS%2FJS?node-id=104924-12&t=WGGFP3p4YRNqrTSh-0
 
+⭐ 배포 페이지 주소
+
+https://soomae1.github.io/HODU-Page/
+
 ⭐ 구현내용
  - HTML, CSS 를 이용한 레이아웃 구현
  - Show more 버튼을 클릭했을 때의 추가적인 이미지 렌더링 <JavaSript기능>
