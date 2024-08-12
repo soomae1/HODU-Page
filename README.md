@@ -1,83 +1,73 @@
-# HODU-Page
+## HODU-Page
 <오르미5기> 개인 프로젝트 HODU Page 구현
 
-😊 프로젝트 기간: 5/20 ~ 5/28
+#### 😊 프로젝트 기간: 5/20 ~ 5/28
+#### 😊 프로젝트 발표: 5/28(화) 프로젝트 발표
 
-😊 프로젝트 발표: 5/28(화) 프로젝트 발표
+#### ⭐ 구현대상 (<https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS%2FJS?node-id=104924-12&t=WGGFP3p4YRNqrTSh-0>)
 
-⭐ 구현대상
+#### ⭐ 배포 페이지 주소 (<https://soomae1.github.io/HODU-Page/>)
 
-https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS%2FJS?node-id=104924-12&t=WGGFP3p4YRNqrTSh-0
-
-⭐ 배포 페이지 주소
-
-https://soomae1.github.io/HODU-Page/
-
-⭐ 구현내용
- - HTML, CSS 를 이용한 레이아웃 구현
- - Show more 버튼을 클릭했을 때의 추가적인 이미지 렌더링 <JavaSript기능>
- - 지도 구현 부분 (kakao map api 사용)
- - Subscribe 바튼 클릭 시 고양이 모달 렌더링 <JavaSript기능>
+#### ⭐구현내용
+- [x] HTML, CSS 를 이용한 레이아웃 구현
+- [x] Show more 버튼을 클릭했을 때의 추가적인 이미지 렌더링 <JavaSript기능>
+- [x] 지도 구현 부분 (kakao map api 사용)
+- [x] Subscribe 바튼 클릭 시 고양이 모달 렌더링 <JavaSript기능>
 
 
-⭐ 개인 프로젝트 목표
-- 시맨틱 태그 잘 사용해서 코드 작성 및 코드의 중요성 깨닫기!
-- 헷갈리는 CSS 부분 프로젝트를 통해 친해지기 및 기능에 익숙해지기!
-- javaScript 기능 구현 노력해보기 및 개념 알고 친해지기!
-- 모르는 부분 두려워하지 말고 멘토님/강사님 적극적으로 질문하기! **(피드백 필슈!)**
-- 더도 말고 덜도 말고 주어진 페이지 깔끔하게 완성하기!
-- 발표 트라우마 극복👩 아자아자!!
+#### ⭐ 개인 프로젝트 목표
+- [x] 시맨틱 태그 잘 사용해서 코드 작성 및 코드의 중요성 깨닫기!
+- [x] 헷갈리는 CSS 부분 프로젝트를 통해 친해지기 및 기능에 익숙해지기!
+- [x] javaScript 기능 구현 노력해보기 및 개념 알고 친해지기!
+- [x] 모르는 부분 두려워하지 말고 멘토님/강사님 적극적으로 질문하기! **(피드백 필슈!)**
+- [x] 더도 말고 덜도 말고 주어진 페이지 깔끔하게 완성하기!
+- [x] 발표 트라우마 극복👩 아자아자!!
 
-
-⭐ 재현강사님 피드백 
-- class 이름 2,3 나 혼자만 알아보게 설정하지 말기! ❌ (형태-의미-상태)
-- height? 높이값을 꼭 줄 필요없다!
-- div를 최대한 사용하지 않으려고 한게 너무 보기 좋다 깔끔하다!
-
+***
   
 
 
 
-1. 시맨틱 태그 깔끔하게 사용
+#### 🔗 시맨틱 태그 
    
 ![image](https://github.com/soomae1/HODU-Page/assets/168793000/49249a33-a749-499a-93e6-9e5b4937f7e8)
 
 
 
-2.Show more 버튼 클릭 시 추가적인 이미지 랜더링 
+#### 🔗 Show more 버튼 클릭 시 추가적인 이미지 랜더링 
 
 ![image](https://github.com/soomae1/HODU-Page/assets/168793000/378025f0-705b-446c-8198-48f8b7917b20) 
 
-                                             🔽
+                                            
 
 ![image](https://github.com/soomae1/HODU-Page/assets/168793000/ba458986-1f86-4191-b52c-65bc2c130f26)
 
 
 
-3. 지도 구현 ( JavaScript 기능 사용 )
+#### 🔗 지도 구현 ( JavaScript 기능 사용 )
 
 ![msedge_kT73n8X3N4](https://github.com/soomae1/HODU-Page/assets/168793000/8c25b693-534a-45cc-9c50-50976804a48f)
 
 
 
-4. 모달창 구현 ( JavaScript 기능 사용 )
+#### 🔗 모달창 구현 ( JavaScript 기능 사용 )
    
 ![msedge_xslG99xROm](https://github.com/soomae1/HODU-Page/assets/168793000/21337e7d-d2d3-464d-8621-54b868a71db1)
 
 
 
-5. 버튼이 변하는 현상
+#### 🔗 버튼이 변하는 현상
    
 ![msedge_MZyVYTR3Sw](https://github.com/soomae1/HODU-Page/assets/168793000/f0ece436-2028-4e53-b51a-e64c3bc9d7a4)
 
 
 
+***
 
 
 
 
-
-🐥 프로젝트 마무리 후 회고 (발표 전)
+#### 🐥 프로젝트 마무리 후 회고 (발표 전)
 - 일주일 동안 프로젝트를 하면서 페이지 구현하는데 엄청난 노력이 필요하다는 걸 크게 깨달았다.
 - 시맨틱 태그를 구성하는데 처음에는 힘들었지만 html에는 많이 익숙해졌고 어렵지 않게 느껴졌다.
 - CSS class 선택자 설정이 어려웠다.
@@ -85,12 +75,13 @@ https://soomae1.github.io/HODU-Page/
 - 마지막 버튼 부분을 올리는 동작하는 기능을 만들지 못해서 아쉽다.
 
 
+#### 🐥 재현강사님 피드백 
+- class 이름 2,3 나 혼자만 알아보게 설정하지 말기! ❌ (형태-의미-상태)
+- height? 높이값을 꼭 줄 필요없다!
+- div를 최대한 사용하지 않으려고 한게 너무 보기 좋다 깔끔하다!
 
 
-
-
-
-⭐ 발표 후 깨달음
+#### 🐥 발표 후 깨달음
 
 - 주소 html 태그 **address**로 변경! (다른 분 발표보고 깨달음!)
 - input 사용시 위에 lable 꼭 같이 사용해주기! (다른 분 설명듣고 깨달음!)
