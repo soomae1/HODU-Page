@@ -41,21 +41,21 @@
 
 #### 📷 JavaScript 기능 구현
 
-| 지도 구현 | 
+| 지도 | 
 |---|
 | ![msedge_kT73n8X3N4](https://github.com/soomae1/HODU-Page/assets/168793000/8c25b693-534a-45cc-9c50-50976804a48f) |
 
 
 #### 📷 JavaScript 기능 구현
 
-| 모달창 구현 | 
+| 모달창 | 
 |---|
 | ![msedge_xslG99xROm](https://github.com/soomae1/HODU-Page/assets/168793000/21337e7d-d2d3-464d-8621-54b868a71db1) |
 
 
-#### 🔗 스크롤 버튼
+#### 🔗 스크롤 구현
 
-| 버튼 구현 | 
+| 버튼 | 
 |---|
 | ![msedge_MZyVYTR3Sw](https://github.com/soomae1/HODU-Page/assets/168793000/f0ece436-2028-4e53-b51a-e64c3bc9d7a4) |
 
