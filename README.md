@@ -1,11 +1,9 @@
 ## HODU-Page
 <오르미5기> 개인 프로젝트 HODU Page 구현
+#### 배포 URL : [✨호두 페이지](https://soomae1.github.io/HODU-Page/)
 
-#### 😊 프로젝트 기간: 5/20 ~ 5/28
-#### 😊 프로젝트 발표: 5/28(화) 프로젝트 발표
-
-#### ⭐ 구현대상 : https://www.figma.com/design/s9RCnA6dSi3QHHeMDFHKE6/EST-오르미(BE)_HTML%2FCSS%2FJS?node-id=104924-12&t=WGGFP3p4YRNqrTSh-0
-#### ⭐ 배포 페이지 주소 : https://soomae1.github.io/HODU-Page/
+프로젝트 기간 : 5/20 ~ 5/27 <br>
+프로젝트 발표일 : 5/28(화)
 
 #### ⭐구현내용
 - [x] HTML, CSS 를 이용한 레이아웃 구현
