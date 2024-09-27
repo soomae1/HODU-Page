@@ -20,12 +20,12 @@
 - [x] 더도 말고 덜도 말고 주어진 페이지 깔끔하게 완성하기!
 - [x] 발표 트라우마 극복👩 아자아자!!
 
+## 🛠 기술 스택
 
-## 
-
-#### 🧰 프론트엔드 사용 기술
+### Frontend
 <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 
+## 🖥 화면 구성
 
 #### 🔗 코드 구현
 
